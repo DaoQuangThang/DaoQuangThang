@@ -1,0 +1,86 @@
+body {
+    background-color:black;
+}
+
+.container {
+    background-color:white;
+    height:400px;
+    width:800px;
+    margin:0px auto ;
+}
+
+.color {
+    color: #2B3856;
+}
+
+.bg_blue {
+    background-color:#2B3856;
+    height:70px;
+}
+
+.bg_orange {
+    background-color:rgb(245, 123, 79);
+    height:230px;
+    width:90px;
+    border-radius:10px;
+}
+
+.bg_white {
+    background-color:white;
+    height:100px;
+    width:150px;
+    border-radius:10px;
+}
+
+.absolute {
+    position: absolute
+}
+
+.relative {
+    position: relative
+}
+
+.top_20 {
+    top:20px;
+}
+.top_40 {
+    top:40px;
+}
+
+.top_190 {
+    top:190px;
+}
+.left_550 {
+    left:550px;
+}
+
+.left_350 {
+    left:350px;
+}
+
+.left_330 {
+    left:330px;
+}
+.image_5 {
+    height:180px;
+    width:270px;
+    border-radius:10px;
+}
+
+.font_top {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-small;
+    word-spacing: 1px
+}
+
+.font_bottom {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    width: 125px;
+    font-size:large;
+    word-spacing: 1px
+}
+
+.padding {
+    padding:10px 0px;
+}
