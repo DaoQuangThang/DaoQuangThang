@@ -1,0 +1,64 @@
+body {
+    background-color:black;
+    color:white
+}
+
+.container {
+    background-color:rgba(66, 66, 66, 0.552);
+    height:420px;
+    width:150vh;
+    margin:0px auto
+}
+
+.inline_block {
+    display: inline-block;
+}
+
+.font_family {
+    font-family: 'Lora', serif;
+}
+
+.child-content {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    padding:0px 40px;
+}
+
+.child-line {
+
+    height: 2px;
+    width: 0;
+    background-color: aqua;
+    opacity: 0;
+    transition: width 1s ease-in-out, opacity 0.5s ease-in;
+}
+
+.child-content:hover .child-line {
+    width: 100%;
+    opacity: 1;
+}
+
+.children {
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.center {
+    padding:30px 46%;
+    font-size:10px;
+}
+
+.image_size {
+    height:250px;
+    width:200px;
+    padding-left:20px;
+}
+
+.zoom {
+    transition: transform.2s ; 
+    
+}
+.zoom:hover {
+    transform: scale(1.1); 
+}
