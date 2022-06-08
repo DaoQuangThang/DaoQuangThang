@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: white;
+        color: white;
+    }
+
+    .container {
+        background-color:rgb(138, 137, 137);
+        height:600px;
+        width:199vh;
+        margin:100px auto;
+    }
+
+    .inline_block {
+        display: inline-block;
+    }
+    .understand_image {
+        height:560px;
+        width:470px;
+        margin:10px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .understand_image_item {
+        height:560px;
+        width:470px;
+        margin:10px;
+        overflow: hidden;
+    }
+
+    .understand_image_item:hover .understand_image {
+        height:600px;
+        width:500px;
+    }
+
+    .absolute {
+    position: absolute
+    }
+
+    .relative {
+    position: relative
+    }
+
+    .overlay {
+        top:350px;
+        left:40px;
+        display:none;
+    }
+    .font_one {
+        color: yellow;
+        font-size:30px;
+        letter-spacing:1px;
+    }
+    .font_two {
+        font-size: 15px;
+        letter-spacing:0.5px;
+        padding:5px 0px;
+        width:350px;
+    }
+
+    .font_three {
+        height:20px;
+        width:100px;
+        text-align: center;
+        border: 1px solid white;
+        margin-left:300px;
+    }
+
+    .understand_image_item:hover .overlay {
+        display: block;
+        transition: all 1s ease-in-out;
+        
+    }
+    .display {
+        display: block;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="image_padding">
+            <div class="inline_block understand_image_item relative">
+                <img src="https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    class="understand_image">
+                <div class=" overlay absolute">
+                    <div class="font_one display">Amazing First Title</div>
+                    <div class="font_two display">Jan 29, 2018</div>
+                    <div class="font_one">Amazing First Title</div>
+                    <div class="font_two">Jan 29, 2018</div>
+                    <div class="font_two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distincio, pariatur...</div>
+                    <div class="font_three">Read more →</div>
+                </div>
+            </div>
+            <div class="inline_block understand_image_item relative">
+                <img src="https://images.pexels.com/photos/631954/pexels-photo-631954.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    class="understand_image">
+                <div class="overlay absolute">
+                    <div class="font_one">Amazing Second Title that is  Quite Long</div>
+                    <div class="font_two">Jan 29, 2018</div>
+                    <div class="font_two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam obcaecati ex natus nulla rem  sequi laborum quod fugit...</div>
+                    <div class="font_three">Read more →</div>
+                </div>
+            </div>
+            <div class="inline_block understand_image_item relative">
+                <img src="https://images.pexels.com/photos/248486/pexels-photo-248486.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" 
+                    class="understand_image">
+                <div class="overlay absolute">
+                    <div class="font_one">Amazing Title</div>
+                    <div class="font_two">Jan 29, 2018</div>
+                    <div class="font_two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae...</div>
+                    <div class="font_three">Read more →</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
