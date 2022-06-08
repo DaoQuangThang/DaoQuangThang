@@ -26,7 +26,7 @@
         height:560px;
         width:470px;
         margin:10px;
-        transition: all 0.2s ease-in-out;
+        transition: all 1s ease-in-out;
     }
 
     .understand_image_item {
@@ -50,20 +50,24 @@
     }
 
     .overlay {
-        top:350px;
-        left:40px;
-        display:none;
+        top:460px;
+        left:10px;
+        padding-left:20px;
+        width:fit-content;
+        height:100%;
     }
     .font_one {
         color: yellow;
         font-size:30px;
         letter-spacing:1px;
+        padding-bottom:5px;
     }
     .font_two {
         font-size: 15px;
         letter-spacing:0.5px;
         padding:5px 0px;
         width:350px;
+        padding-bottom:30px;
     }
 
     .font_three {
@@ -75,12 +79,13 @@
     }
 
     .understand_image_item:hover .overlay {
-        display: block;
+        top:300px;
+        left:10px;
         transition: all 1s ease-in-out;
-        
-    }
-    .display {
-        display: block;
+        background-color:black;
+        height:100%;
+        width:100%;
+        opacity:0.6;
     }
 </style>
 <body>
@@ -90,8 +95,6 @@
                 <img src="https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
                     class="understand_image">
                 <div class=" overlay absolute">
-                    <div class="font_one display">Amazing First Title</div>
-                    <div class="font_two display">Jan 29, 2018</div>
                     <div class="font_one">Amazing First Title</div>
                     <div class="font_two">Jan 29, 2018</div>
                     <div class="font_two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distincio, pariatur...</div>
