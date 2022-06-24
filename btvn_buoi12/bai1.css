@@ -1,0 +1,133 @@
+body {
+    background-color: white;
+}
+.container-1 {
+    height:700px;
+    width:200px;
+    background-color:#ECEBF1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:200px;
+    padding-left:10px;
+}
+
+.container-3 {
+    border-right:3px solid #ECEBF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-20px;
+}
+
+.container-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-53px
+}
+.font-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size:25px;
+    width:170px;
+}
+
+.font-2 {
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+.button-font {
+    border:3px solid blue;
+    width:150px;
+    text-align: center;
+    padding:10px;
+    color: blue;
+
+}
+.image-item {
+    display: none;
+}
+@media screen and (min-width:1200px) {
+    .container {
+        display: flex !important;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-1 {
+        background-color:#ECEBF1;
+        height: 500px !important;
+        width:400px !important;
+        padding-left: 30px !important;  
+    } 
+    .container-2 {
+        border-right:3px solid #ECEBF1;
+        height: 500px !important;
+        width:300px !important;
+        padding:0px !important;
+        
+    }
+    .container-3 {
+        height: 500px !important;
+        width:300px !important;
+    }
+    .container-4 {
+        height:500px !important;
+        width:300px !important;
+    }
+    .font-1 {
+        width:250px !important;
+    }
+    .font-2 {
+        width:380px !important;
+    }
+    .button-font {
+        width: fit-content !important;
+    }
+    .image-item {
+        display: block !important;
+    }
+}
+@media screen and (min-width:768px) {
+    .container-1 {
+        height:400px;
+        width:1500px;
+        padding-left: 30px !important;  
+    }
+    .container-2{
+        border-right:3px solid #ECEBF1;
+        height:400px;
+        width:500px;
+        padding:0px;
+    }
+    .container-3{
+        height:400px;
+        width:500px;
+    }
+    .container-4{
+        height:400px;
+        width:500px;
+    }
+    .container-flex {
+        display: flex !important;
+        width: 1500px;
+    }
+    .font-1 {
+        width:100%;
+    }
+    .button-font {
+        width: fit-content !important;
+    }
+    .image-item {
+        display: block !important;
+    }
+}
